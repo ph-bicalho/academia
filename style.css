@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url(back\ \(3\).png);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #C8C8C8;
+}
+ul{
+    list-style: none;
+    display: inline-flex;
+}
+a{
+    color: #2CFA28;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 18px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 16px;
+}
+p{
+    font-size: 25px;
+}
+
+button{
+    font-weight: bolder;
+    font-size: 16px;
+    color: black;
+    background: #2CFA28;
+    border: none;
+    padding: 9px 20px;
+    border-radius: 10px;
+    margin: 0 16px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.retangulo{
+    background: #393939;
+    max-width: 728px;
+    height: 182px;
+    border-radius:41px;
+    display: flex;
+    flex-direction: column;
+    padding: 18px 30px;
+    box-sizing: border-box;
+    align-items: center;
+}
+.quadrado{
+    background: #393939;
+    width: 215px;
+    height: 189px;
+    border-radius: 28px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 30px 0; 
+}
+.quadrado img{
+    width: 40px;
+}
+.center{
+    padding: 5% 1%;
+}
+
+
+
+ /* ------------HEADER---------------- */
+header{
+    background: #1A1A1A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 14px ;
+    padding-bottom: 14px;
+}
+
+.left{
+    max-width: 728px;
+    margin: 3% 9%;
+    display:flex;
+    flex-direction: column;
+}
+
+#home button{
+    padding: 20px 60px;
+    margin: auto;
+    font-size: 25px;
+}
+
+#alter{
+    width: 75px;
+}
+
+ /* ------------SECTION IMAGE-SCROLL------------ */
+.image-scroll div{
+    padding: 6px;
+}
+.image-scroll .container{
+    justify-content: center;
+
+}
+.image-scroll img{
+    width:120px;
+    height: 120px;
+    filter: grayscale(1);
+    padding: 0 15px;
+}
+
+/* --------------SECTION SOBRE---------------- */
+
+
+#sobre img{
+    width: 345px;
+    height: 223px;
+}
+#sobre .retangulo{
+    width: 873px;
+    height: 223px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding: 30px;
+}
+#sobre .container{
+    justify-content: space-evenly;
+    margin-bottom: 45px;
+}
+#sobre h2{
+    margin-bottom: 6rem;
+}
+/* --------------SECTION PREÇOS---------------- */
+
+#preços .center{
+    padding-top: 10px ;
+}
+#preços .quadrado{
+    width: 328px;
+    height: 369px;  
+    border-radius: 52px;
+}
+#preços .container{
+    justify-content: space-evenly;
+    margin-top: 5rem;
+
+}
+#valor{
+    width: 240px;
+}
+
+/* ----------------SECTION PROPAGANDA ---------------- */
+#propaganda{
+    width: 800px;
+    text-align: center;
+}
+.propaganda .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -----------------FOOTER---------------- */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(4, 4, 4, 0.6)
+
+}
+#end{
+    padding-top: 10px;
+}
